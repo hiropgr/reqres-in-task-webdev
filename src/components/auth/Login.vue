@@ -51,8 +51,8 @@ export default {
     },
     data () {
         return {
-            email: 'eve.holt@reqres.in',
-            password: 'cityslicka',
+            email: '',
+            password: '',
             loading: false
         }
     },
