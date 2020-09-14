@@ -2,13 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import authGuard from './authGruard'
 
-
-import Home from '../components/Home'
-import Reg from '../components/auth/Reg'
-import Login from '../components/auth/Login'
-import UsersList from '../components/users/UsersList'
-import CreateUser from '../components/users/CreateUser'
-import UserPage from '../components/users/UserPage'
+const Home = () => import('@/components/Home')
+const Reg = () => import('@/components/auth/Reg')
+const Login = () => import('@/components/auth/Login')
+const UsersList = () => import('@/components/users/UsersList')
+const CreateUser = () => import('@/components/users/CreateUser')
+const UserPage = () => import('@/components/users/UserPage')
 
 Vue.use(Router)
 
