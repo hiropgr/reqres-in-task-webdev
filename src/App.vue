@@ -1,7 +1,8 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="/">CRUD Users</b-navbar-brand>
+      
+      <router-link tag="b-navbar-brand" active-class="active" to="/">CRUD Users</router-link>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
