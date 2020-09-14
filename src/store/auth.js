@@ -1,15 +1,6 @@
 import {HTTP} from '../axios'
 
 export default {
-    state: {
-        
-    },
-    getters: {
-        
-    },
-    mutations: {
-        
-    },
     actions: {
         async register({commit}, user) {
             try {
